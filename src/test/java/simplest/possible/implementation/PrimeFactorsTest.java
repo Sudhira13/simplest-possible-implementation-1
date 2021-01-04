@@ -8,6 +8,6 @@ import static java.util.Collections.emptyList;
 public class PrimeFactorsTest {
     @Test
     void thereAreNoPrimeFactorsFor1() {
-        Assertions.assertEquals(emptyList(), new PrimeFactors().of(1));
+        Assertions.assertEquals(emptyList(), new PrimeFactors().checkFactors(1));
     }
 }
